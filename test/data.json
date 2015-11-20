@@ -1,0 +1,45 @@
+{
+  "0": {
+    "title": "Entrance",
+    "path": "../test/Dataset/panos-house/1/%s/%h_%v.jpg",
+    "side_panel": true,
+    "start_position": 17,
+    "hotspot": [
+      {
+        "to_id": 1,
+        "angle": 65,
+        "error": -26,
+        "text": "Kitchen"
+      }
+    ],
+    "annotation": []
+  },
+  "1": {
+    "title": "Kitchen",
+    "path": "../test/Dataset/panos-house/2/%s/%h_%v.jpg",
+    "side_panel": true,
+    "start_position": 149,
+    "hotspot": [
+      {
+        "to_id": 0,
+        "angle": 220,
+        "error": 25,
+        "text": "Entrance"
+      }
+    ],
+    "annotation": [
+      {
+        "lon": 51,
+        "lat": -23,
+        "title": "Washing Machine",
+        "desc": "LG<br>5.5 Kg"
+      },
+      {
+        "lon": 243,
+        "lat": -3,
+        "title": "Fridge",
+        "desc": "LG<br>x Litres"
+      }
+    ]
+  }
+}
